@@ -38,7 +38,7 @@ int main() {
       v.end(), 
       [](int elem) { return elem % 2 == 0; }
       );
-  // sadržaj vektora v nakon pozivq
+  // sadržaj vektora v nakon poziva:
   // v = {0, 8, 2, 6, 4, *5*, 3, 7, 1, 9};
   // funkcija bi vratila iterator koji pokazuje na element 5 (boldiran).
   
