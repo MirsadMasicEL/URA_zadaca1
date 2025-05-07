@@ -1,3 +1,4 @@
+// Smajil Musić, zadatak3
 #include <iostream>
 
 bool palindrome(const char* s, int n){
