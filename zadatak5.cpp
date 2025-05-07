@@ -1,3 +1,4 @@
+// Smajil Musić, zadatak5
 #include <iostream>
 int prod_even(int n){
   if(n <= 3)
