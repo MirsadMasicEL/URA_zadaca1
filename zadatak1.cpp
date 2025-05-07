@@ -1,5 +1,4 @@
-// URA Zadaca1 
-// zadatak1
+// Smajil Musić, zadatak1
 
 #include <cstdlib>
 #include <iostream>
