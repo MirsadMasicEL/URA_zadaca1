@@ -1,3 +1,4 @@
+// Smajil Musić, zadatak2
 #include <cstdlib>
 #include <iostream>
 #include <stdexcept>
