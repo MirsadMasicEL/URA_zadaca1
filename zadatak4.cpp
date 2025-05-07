@@ -1,3 +1,4 @@
+// Smajil Musić, zadatak4
 #include <iostream>
 
 int sum(const int* array, int n){
