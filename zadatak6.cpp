@@ -15,8 +15,8 @@ bool push_unique(std::vector<int>& vec, int value){
 
 // rekurzivno
 bool push_unique_find_element(std::vector<int>& array, int value, size_t index = 0){
-  if(index == array.size()) return true; // pronadjen
-  if(array[index] == value) return false; // nije
+  if(index == array.size()) return true; // pronadjen nije
+  if(array[index] == value) return false; // nije nepronadjen
   return push_unique_find_element(array, value, index + 1);
 }
 
