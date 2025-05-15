@@ -67,6 +67,7 @@ int half(int n) {
 
 int fast_multiply(int n, int a) {
   // osnovni slucaj
+  if(a == 0 || b == 0) return 0;
   if(a == 1) return n;
   auto res = fast_multiply(n << 1, half(a));
   if(odd(a)) res += n;
